@@ -4,7 +4,7 @@
 			<el-card :body-style="{ padding: '25px' }">
 				<img src="http://element.eleme.io/static/hamburger.50e4091.png" class="image">
 				<div style="padding: 14px;">
-					<span>{{article.title}}</span>
+					<span style="color:#FF4949;">{{article.title}}</span>
 					<div class="bottom clearfix">
 						<time class="time">{{ currentDate }}</time>
 					</div>
@@ -17,6 +17,7 @@
 		export default{
 			data(){
 				return{
+					currentDate: new Date().toString(),
 					articles:[],
 					articleTitle:''
 				}
