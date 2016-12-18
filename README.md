@@ -1,7 +1,7 @@
 # doubanMovie
 > 初学使用Vue 2.0 搭建的简单demo，样式用的是Element UI
 
-demo预览：[https://helloqingfeng.github.io/Vue-douban/](https://helloqingfeng.github.io/Vue-douban/)
+demo预览：[https://helloqingfeng.github.io/Vue-douban/dist](https://helloqingfeng.github.io/Vue-douban/dist/index.html)
 
 # 安装运行
 
