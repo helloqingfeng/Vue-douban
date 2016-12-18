@@ -1,7 +1,6 @@
 <template>
 	<div id="app">
-		<el-row :gutter="20">
-			<el-col :span="16" :offset="4"><div class="grid-content bg-purple-dark">
+		<el-row>
 				<h1>{{ msg }}</h1>
 				<p><img src="./assets/fanhai.jpg"  alt="fanhai"></p>
 				<Author></Author>
@@ -16,8 +15,6 @@
 						<Third></Third>
 					</el-tab-pane>
 				</el-tabs>
-			</div>
-		</el-col>
 	</el-row>
 </div>
 </template>

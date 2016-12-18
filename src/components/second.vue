@@ -1,19 +1,20 @@
 <template>
 	<div id="second">
 		<el-row>
-			<el-col :span="24"><div class="grid-content bg-purple-dark">
-				<el-card class="box-card">
-					<div slot="header" class="clearfix">
-						<h2 style="line-height: 36px;">{{articleTitle}}</h2>
-					</div>
-					<ul class="text item list-style">
-						<li v-for="article in articles">
-							{{article.title}}
-						</li>
-					</ul>
-				</el-card>
-
-			</div></el-col>
+			<el-col :span="24">
+				<div class="grid-content bg-purple-dark">
+					<el-card class="box-card">
+						<div slot="header" class="clearfix">
+							<h2 style="line-height: 36px;">{{articleTitle}}</h2>
+						</div>
+						<ol class="text item list-style">
+							<li v-for="article in articles">
+								{{article.title}}
+							</li>
+						</ol>
+						</el-card>
+				</div>
+			</el-col>
 		</el-row>
 
 	</div>
@@ -46,20 +47,16 @@
 
 <style>
 	#second h1{
-		line-height: 38px;
-		color:
-	}
-	.text {
-		font-size: 14px;
+		line-height: 28px;
 	}
 
 	.item {
-		padding: 18px 0;
+		padding: 10px 3px;
 	}
 	.list-style{
-		font-size: 16px;
+		font-size: 18px;
 		text-align: left;
-		margin-left:300px;
+		margin-left:330px;
 	}
 	.box-card{
 		width: 880px;
